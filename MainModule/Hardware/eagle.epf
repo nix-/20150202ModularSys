@@ -358,7 +358,7 @@ UsedLibrary="ULN2803.lbr"
 [Win_1]
 Type="Control Panel"
 Loc="652 321 1506 849"
-State=2
+State=1
 Number=0
 
 [Desktop]
