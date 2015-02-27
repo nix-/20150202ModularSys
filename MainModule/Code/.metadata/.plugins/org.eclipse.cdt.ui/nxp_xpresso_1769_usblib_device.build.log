@@ -1,0 +1,266 @@
+10:45:43 **** Build of configuration Debug for project nxp_xpresso_1769_usblib_device ****
+make -r all 
+Building file: ../Drivers/USB/Core/HCD/OHCI/OHCI.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/HCD/OHCI/OHCI.d" -MT"Drivers/USB/Core/HCD/OHCI/OHCI.o" -MT"Drivers/USB/Core/HCD/OHCI/OHCI.d" -o "Drivers/USB/Core/HCD/OHCI/OHCI.o" "../Drivers/USB/Core/HCD/OHCI/OHCI.c"
+Finished building: ../Drivers/USB/Core/HCD/OHCI/OHCI.c
+ 
+Building file: ../Drivers/USB/Core/HCD/EHCI/EHCI.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/HCD/EHCI/EHCI.d" -MT"Drivers/USB/Core/HCD/EHCI/EHCI.o" -MT"Drivers/USB/Core/HCD/EHCI/EHCI.d" -o "Drivers/USB/Core/HCD/EHCI/EHCI.o" "../Drivers/USB/Core/HCD/EHCI/EHCI.c"
+Finished building: ../Drivers/USB/Core/HCD/EHCI/EHCI.c
+ 
+Building file: ../Drivers/USB/Core/HCD/HCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/HCD/HCD.d" -MT"Drivers/USB/Core/HCD/HCD.o" -MT"Drivers/USB/Core/HCD/HCD.d" -o "Drivers/USB/Core/HCD/HCD.o" "../Drivers/USB/Core/HCD/HCD.c"
+Finished building: ../Drivers/USB/Core/HCD/HCD.c
+ 
+Building file: ../Drivers/USB/Core/HAL/LPC17XX/HAL_LPC17xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/HAL/LPC17XX/HAL_LPC17xx.d" -MT"Drivers/USB/Core/HAL/LPC17XX/HAL_LPC17xx.o" -MT"Drivers/USB/Core/HAL/LPC17XX/HAL_LPC17xx.d" -o "Drivers/USB/Core/HAL/LPC17XX/HAL_LPC17xx.o" "../Drivers/USB/Core/HAL/LPC17XX/HAL_LPC17xx.c"
+Finished building: ../Drivers/USB/Core/HAL/LPC17XX/HAL_LPC17xx.c
+ 
+Building file: ../Drivers/USB/Core/HAL/LPC11UXX/HAL_LPC11Uxx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/HAL/LPC11UXX/HAL_LPC11Uxx.d" -MT"Drivers/USB/Core/HAL/LPC11UXX/HAL_LPC11Uxx.o" -MT"Drivers/USB/Core/HAL/LPC11UXX/HAL_LPC11Uxx.d" -o "Drivers/USB/Core/HAL/LPC11UXX/HAL_LPC11Uxx.o" "../Drivers/USB/Core/HAL/LPC11UXX/HAL_LPC11Uxx.c"
+Finished building: ../Drivers/USB/Core/HAL/LPC11UXX/HAL_LPC11Uxx.c
+ 
+Building file: ../Drivers/USB/Core/DCD/USBRom/usbd_adcuser.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/DCD/USBRom/usbd_adcuser.d" -MT"Drivers/USB/Core/DCD/USBRom/usbd_adcuser.o" -MT"Drivers/USB/Core/DCD/USBRom/usbd_adcuser.d" -o "Drivers/USB/Core/DCD/USBRom/usbd_adcuser.o" "../Drivers/USB/Core/DCD/USBRom/usbd_adcuser.c"
+Finished building: ../Drivers/USB/Core/DCD/USBRom/usbd_adcuser.c
+ 
+Building file: ../Drivers/USB/Core/DCD/USBRom/usbd_cdc.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/DCD/USBRom/usbd_cdc.d" -MT"Drivers/USB/Core/DCD/USBRom/usbd_cdc.o" -MT"Drivers/USB/Core/DCD/USBRom/usbd_cdc.d" -o "Drivers/USB/Core/DCD/USBRom/usbd_cdc.o" "../Drivers/USB/Core/DCD/USBRom/usbd_cdc.c"
+Finished building: ../Drivers/USB/Core/DCD/USBRom/usbd_cdc.c
+ 
+Building file: ../Drivers/USB/Core/DCD/USBRom/usbd_hid.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/DCD/USBRom/usbd_hid.d" -MT"Drivers/USB/Core/DCD/USBRom/usbd_hid.o" -MT"Drivers/USB/Core/DCD/USBRom/usbd_hid.d" -o "Drivers/USB/Core/DCD/USBRom/usbd_hid.o" "../Drivers/USB/Core/DCD/USBRom/usbd_hid.c"
+Finished building: ../Drivers/USB/Core/DCD/USBRom/usbd_hid.c
+ 
+Building file: ../Drivers/USB/Core/DCD/USBRom/usbd_msc.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/DCD/USBRom/usbd_msc.d" -MT"Drivers/USB/Core/DCD/USBRom/usbd_msc.o" -MT"Drivers/USB/Core/DCD/USBRom/usbd_msc.d" -o "Drivers/USB/Core/DCD/USBRom/usbd_msc.o" "../Drivers/USB/Core/DCD/USBRom/usbd_msc.c"
+Finished building: ../Drivers/USB/Core/DCD/USBRom/usbd_msc.c
+ 
+Building file: ../Drivers/USB/Core/DCD/USBRom/usbd_rom.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/DCD/USBRom/usbd_rom.d" -MT"Drivers/USB/Core/DCD/USBRom/usbd_rom.o" -MT"Drivers/USB/Core/DCD/USBRom/usbd_rom.d" -o "Drivers/USB/Core/DCD/USBRom/usbd_rom.o" "../Drivers/USB/Core/DCD/USBRom/usbd_rom.c"
+Finished building: ../Drivers/USB/Core/DCD/USBRom/usbd_rom.c
+ 
+Building file: ../Drivers/USB/Core/DCD/LPC18XX/Endpoint_LPC18xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/DCD/LPC18XX/Endpoint_LPC18xx.d" -MT"Drivers/USB/Core/DCD/LPC18XX/Endpoint_LPC18xx.o" -MT"Drivers/USB/Core/DCD/LPC18XX/Endpoint_LPC18xx.d" -o "Drivers/USB/Core/DCD/LPC18XX/Endpoint_LPC18xx.o" "../Drivers/USB/Core/DCD/LPC18XX/Endpoint_LPC18xx.c"
+Finished building: ../Drivers/USB/Core/DCD/LPC18XX/Endpoint_LPC18xx.c
+ 
+Building file: ../Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.d" -MT"Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.o" -MT"Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.d" -o "Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.o" "../Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.c"
+../Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.c: In function 'DcdIrqHandler':
+../Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.c:466:21: warning: variable 'SIEErrorStatus' set but not used [-Wunused-but-set-variable]
+   volatile uint32_t SIEErrorStatus;
+                     ^
+Finished building: ../Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.c
+ 
+Building file: ../Drivers/USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.d" -MT"Drivers/USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.o" -MT"Drivers/USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.d" -o "Drivers/USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.o" "../Drivers/USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.c"
+Finished building: ../Drivers/USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.c
+ 
+Building file: ../Drivers/USB/Core/ConfigDescriptor.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/ConfigDescriptor.d" -MT"Drivers/USB/Core/ConfigDescriptor.o" -MT"Drivers/USB/Core/ConfigDescriptor.d" -o "Drivers/USB/Core/ConfigDescriptor.o" "../Drivers/USB/Core/ConfigDescriptor.c"
+Finished building: ../Drivers/USB/Core/ConfigDescriptor.c
+ 
+Building file: ../Drivers/USB/Core/Device.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/Device.d" -MT"Drivers/USB/Core/Device.o" -MT"Drivers/USB/Core/Device.d" -o "Drivers/USB/Core/Device.o" "../Drivers/USB/Core/Device.c"
+Finished building: ../Drivers/USB/Core/Device.c
+ 
+Building file: ../Drivers/USB/Core/DeviceStandardReq.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/DeviceStandardReq.d" -MT"Drivers/USB/Core/DeviceStandardReq.o" -MT"Drivers/USB/Core/DeviceStandardReq.d" -o "Drivers/USB/Core/DeviceStandardReq.o" "../Drivers/USB/Core/DeviceStandardReq.c"
+Finished building: ../Drivers/USB/Core/DeviceStandardReq.c
+ 
+Building file: ../Drivers/USB/Core/Endpoint.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/Endpoint.d" -MT"Drivers/USB/Core/Endpoint.o" -MT"Drivers/USB/Core/Endpoint.d" -o "Drivers/USB/Core/Endpoint.o" "../Drivers/USB/Core/Endpoint.c"
+Finished building: ../Drivers/USB/Core/Endpoint.c
+ 
+Building file: ../Drivers/USB/Core/EndpointStream.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/EndpointStream.d" -MT"Drivers/USB/Core/EndpointStream.o" -MT"Drivers/USB/Core/EndpointStream.d" -o "Drivers/USB/Core/EndpointStream.o" "../Drivers/USB/Core/EndpointStream.c"
+Finished building: ../Drivers/USB/Core/EndpointStream.c
+ 
+Building file: ../Drivers/USB/Core/Events.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/Events.d" -MT"Drivers/USB/Core/Events.o" -MT"Drivers/USB/Core/Events.d" -o "Drivers/USB/Core/Events.o" "../Drivers/USB/Core/Events.c"
+Finished building: ../Drivers/USB/Core/Events.c
+ 
+Building file: ../Drivers/USB/Core/Host.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/Host.d" -MT"Drivers/USB/Core/Host.o" -MT"Drivers/USB/Core/Host.d" -o "Drivers/USB/Core/Host.o" "../Drivers/USB/Core/Host.c"
+Finished building: ../Drivers/USB/Core/Host.c
+ 
+Building file: ../Drivers/USB/Core/HostStandardReq.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/HostStandardReq.d" -MT"Drivers/USB/Core/HostStandardReq.o" -MT"Drivers/USB/Core/HostStandardReq.d" -o "Drivers/USB/Core/HostStandardReq.o" "../Drivers/USB/Core/HostStandardReq.c"
+Finished building: ../Drivers/USB/Core/HostStandardReq.c
+ 
+Building file: ../Drivers/USB/Core/Pipe.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/Pipe.d" -MT"Drivers/USB/Core/Pipe.o" -MT"Drivers/USB/Core/Pipe.d" -o "Drivers/USB/Core/Pipe.o" "../Drivers/USB/Core/Pipe.c"
+Finished building: ../Drivers/USB/Core/Pipe.c
+ 
+Building file: ../Drivers/USB/Core/PipeStream.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/PipeStream.d" -MT"Drivers/USB/Core/PipeStream.o" -MT"Drivers/USB/Core/PipeStream.d" -o "Drivers/USB/Core/PipeStream.o" "../Drivers/USB/Core/PipeStream.c"
+Finished building: ../Drivers/USB/Core/PipeStream.c
+ 
+Building file: ../Drivers/USB/Core/USBController.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/USBController.d" -MT"Drivers/USB/Core/USBController.o" -MT"Drivers/USB/Core/USBController.d" -o "Drivers/USB/Core/USBController.o" "../Drivers/USB/Core/USBController.c"
+Finished building: ../Drivers/USB/Core/USBController.c
+ 
+Building file: ../Drivers/USB/Core/USBMemory.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/USBMemory.d" -MT"Drivers/USB/Core/USBMemory.o" -MT"Drivers/USB/Core/USBMemory.d" -o "Drivers/USB/Core/USBMemory.o" "../Drivers/USB/Core/USBMemory.c"
+Finished building: ../Drivers/USB/Core/USBMemory.c
+ 
+Building file: ../Drivers/USB/Core/USBTask.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Core/USBTask.d" -MT"Drivers/USB/Core/USBTask.o" -MT"Drivers/USB/Core/USBTask.d" -o "Drivers/USB/Core/USBTask.o" "../Drivers/USB/Core/USBTask.c"
+Finished building: ../Drivers/USB/Core/USBTask.c
+ 
+Building file: ../Drivers/USB/Class/Host/AudioClassHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Host/AudioClassHost.d" -MT"Drivers/USB/Class/Host/AudioClassHost.o" -MT"Drivers/USB/Class/Host/AudioClassHost.d" -o "Drivers/USB/Class/Host/AudioClassHost.o" "../Drivers/USB/Class/Host/AudioClassHost.c"
+Finished building: ../Drivers/USB/Class/Host/AudioClassHost.c
+ 
+Building file: ../Drivers/USB/Class/Host/CDCClassHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Host/CDCClassHost.d" -MT"Drivers/USB/Class/Host/CDCClassHost.o" -MT"Drivers/USB/Class/Host/CDCClassHost.d" -o "Drivers/USB/Class/Host/CDCClassHost.o" "../Drivers/USB/Class/Host/CDCClassHost.c"
+Finished building: ../Drivers/USB/Class/Host/CDCClassHost.c
+ 
+Building file: ../Drivers/USB/Class/Host/HIDClassHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Host/HIDClassHost.d" -MT"Drivers/USB/Class/Host/HIDClassHost.o" -MT"Drivers/USB/Class/Host/HIDClassHost.d" -o "Drivers/USB/Class/Host/HIDClassHost.o" "../Drivers/USB/Class/Host/HIDClassHost.c"
+Finished building: ../Drivers/USB/Class/Host/HIDClassHost.c
+ 
+Building file: ../Drivers/USB/Class/Host/MIDIClassHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Host/MIDIClassHost.d" -MT"Drivers/USB/Class/Host/MIDIClassHost.o" -MT"Drivers/USB/Class/Host/MIDIClassHost.d" -o "Drivers/USB/Class/Host/MIDIClassHost.o" "../Drivers/USB/Class/Host/MIDIClassHost.c"
+Finished building: ../Drivers/USB/Class/Host/MIDIClassHost.c
+ 
+Building file: ../Drivers/USB/Class/Host/MassStorageClassHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Host/MassStorageClassHost.d" -MT"Drivers/USB/Class/Host/MassStorageClassHost.o" -MT"Drivers/USB/Class/Host/MassStorageClassHost.d" -o "Drivers/USB/Class/Host/MassStorageClassHost.o" "../Drivers/USB/Class/Host/MassStorageClassHost.c"
+Finished building: ../Drivers/USB/Class/Host/MassStorageClassHost.c
+ 
+Building file: ../Drivers/USB/Class/Host/PrinterClassHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Host/PrinterClassHost.d" -MT"Drivers/USB/Class/Host/PrinterClassHost.o" -MT"Drivers/USB/Class/Host/PrinterClassHost.d" -o "Drivers/USB/Class/Host/PrinterClassHost.o" "../Drivers/USB/Class/Host/PrinterClassHost.c"
+Finished building: ../Drivers/USB/Class/Host/PrinterClassHost.c
+ 
+Building file: ../Drivers/USB/Class/Host/RNDISClassHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Host/RNDISClassHost.d" -MT"Drivers/USB/Class/Host/RNDISClassHost.o" -MT"Drivers/USB/Class/Host/RNDISClassHost.d" -o "Drivers/USB/Class/Host/RNDISClassHost.o" "../Drivers/USB/Class/Host/RNDISClassHost.c"
+Finished building: ../Drivers/USB/Class/Host/RNDISClassHost.c
+ 
+Building file: ../Drivers/USB/Class/Host/StillImageClassHost.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Host/StillImageClassHost.d" -MT"Drivers/USB/Class/Host/StillImageClassHost.o" -MT"Drivers/USB/Class/Host/StillImageClassHost.d" -o "Drivers/USB/Class/Host/StillImageClassHost.o" "../Drivers/USB/Class/Host/StillImageClassHost.c"
+Finished building: ../Drivers/USB/Class/Host/StillImageClassHost.c
+ 
+Building file: ../Drivers/USB/Class/Device/AudioClassDevice.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Device/AudioClassDevice.d" -MT"Drivers/USB/Class/Device/AudioClassDevice.o" -MT"Drivers/USB/Class/Device/AudioClassDevice.d" -o "Drivers/USB/Class/Device/AudioClassDevice.o" "../Drivers/USB/Class/Device/AudioClassDevice.c"
+Finished building: ../Drivers/USB/Class/Device/AudioClassDevice.c
+ 
+Building file: ../Drivers/USB/Class/Device/CDCClassDevice.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Device/CDCClassDevice.d" -MT"Drivers/USB/Class/Device/CDCClassDevice.o" -MT"Drivers/USB/Class/Device/CDCClassDevice.d" -o "Drivers/USB/Class/Device/CDCClassDevice.o" "../Drivers/USB/Class/Device/CDCClassDevice.c"
+Finished building: ../Drivers/USB/Class/Device/CDCClassDevice.c
+ 
+Building file: ../Drivers/USB/Class/Device/HIDClassDevice.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Device/HIDClassDevice.d" -MT"Drivers/USB/Class/Device/HIDClassDevice.o" -MT"Drivers/USB/Class/Device/HIDClassDevice.d" -o "Drivers/USB/Class/Device/HIDClassDevice.o" "../Drivers/USB/Class/Device/HIDClassDevice.c"
+Finished building: ../Drivers/USB/Class/Device/HIDClassDevice.c
+ 
+Building file: ../Drivers/USB/Class/Device/MIDIClassDevice.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Device/MIDIClassDevice.d" -MT"Drivers/USB/Class/Device/MIDIClassDevice.o" -MT"Drivers/USB/Class/Device/MIDIClassDevice.d" -o "Drivers/USB/Class/Device/MIDIClassDevice.o" "../Drivers/USB/Class/Device/MIDIClassDevice.c"
+Finished building: ../Drivers/USB/Class/Device/MIDIClassDevice.c
+ 
+Building file: ../Drivers/USB/Class/Device/MassStorageClassDevice.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Device/MassStorageClassDevice.d" -MT"Drivers/USB/Class/Device/MassStorageClassDevice.o" -MT"Drivers/USB/Class/Device/MassStorageClassDevice.d" -o "Drivers/USB/Class/Device/MassStorageClassDevice.o" "../Drivers/USB/Class/Device/MassStorageClassDevice.c"
+Finished building: ../Drivers/USB/Class/Device/MassStorageClassDevice.c
+ 
+Building file: ../Drivers/USB/Class/Device/RNDISClassDevice.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Device/RNDISClassDevice.d" -MT"Drivers/USB/Class/Device/RNDISClassDevice.o" -MT"Drivers/USB/Class/Device/RNDISClassDevice.d" -o "Drivers/USB/Class/Device/RNDISClassDevice.o" "../Drivers/USB/Class/Device/RNDISClassDevice.c"
+Finished building: ../Drivers/USB/Class/Device/RNDISClassDevice.c
+ 
+Building file: ../Drivers/USB/Class/Common/HIDParser.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC175X_6X__ -DCORE_M3 -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_ip" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"Drivers/USB/Class/Common/HIDParser.d" -MT"Drivers/USB/Class/Common/HIDParser.o" -MT"Drivers/USB/Class/Common/HIDParser.d" -o "Drivers/USB/Class/Common/HIDParser.o" "../Drivers/USB/Class/Common/HIDParser.c"
+Finished building: ../Drivers/USB/Class/Common/HIDParser.c
+ 
+Building target: libnxp_xpresso_1769_usblib_device.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libnxp_xpresso_1769_usblib_device.a"  ./Drivers/USB/Core/HCD/OHCI/OHCI.o  ./Drivers/USB/Core/HCD/EHCI/EHCI.o  ./Drivers/USB/Core/HCD/HCD.o  ./Drivers/USB/Core/HAL/LPC17XX/HAL_LPC17xx.o  ./Drivers/USB/Core/HAL/LPC11UXX/HAL_LPC11Uxx.o  ./Drivers/USB/Core/DCD/USBRom/usbd_adcuser.o ./Drivers/USB/Core/DCD/USBRom/usbd_cdc.o ./Drivers/USB/Core/DCD/USBRom/usbd_hid.o ./Drivers/USB/Core/DCD/USBRom/usbd_msc.o ./Drivers/USB/Core/DCD/USBRom/usbd_rom.o  ./Drivers/USB/Core/DCD/LPC18XX/Endpoint_LPC18xx.o  ./Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.o  ./Drivers/USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.o  ./Drivers/USB/Core/ConfigDescriptor.o ./Drivers/USB/Core/Device.o ./Drivers/USB/Core/DeviceStandardReq.o ./Drivers/USB/Core/Endpoint.o ./Drivers/USB/Core/EndpointStream.o ./Drivers/USB/Core/Events.o ./Drivers/USB/Core/Host.o ./Drivers/USB/Core/HostStandardReq.o ./Drivers/USB/Core/Pipe.o ./Drivers/USB/Core/PipeStream.o ./Drivers/USB/Core/USBController.o ./Drivers/USB/Core/USBMemory.o ./Drivers/USB/Core/USBTask.o  ./Drivers/USB/Class/Host/AudioClassHost.o ./Drivers/USB/Class/Host/CDCClassHost.o ./Drivers/USB/Class/Host/HIDClassHost.o ./Drivers/USB/Class/Host/MIDIClassHost.o ./Drivers/USB/Class/Host/MassStorageClassHost.o ./Drivers/USB/Class/Host/PrinterClassHost.o ./Drivers/USB/Class/Host/RNDISClassHost.o ./Drivers/USB/Class/Host/StillImageClassHost.o  ./Drivers/USB/Class/Device/AudioClassDevice.o ./Drivers/USB/Class/Device/CDCClassDevice.o ./Drivers/USB/Class/Device/HIDClassDevice.o ./Drivers/USB/Class/Device/MIDIClassDevice.o ./Drivers/USB/Class/Device/MassStorageClassDevice.o ./Drivers/USB/Class/Device/RNDISClassDevice.o  ./Drivers/USB/Class/Common/HIDParser.o   
+c:\nxp\LPCXpresso_7.5.0_254\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating libnxp_xpresso_1769_usblib_device.a
+Finished building target: libnxp_xpresso_1769_usblib_device.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libnxp_xpresso_1769_usblib_device.a" ; # arm-none-eabi-objdump -h -S "libnxp_xpresso_1769_usblib_device.a" >"libnxp_xpresso_1769_usblib_device.lss"
+   text	   data	    bss	    dec	    hex	filename
+      0	      0	      0	      0	      0	OHCI.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	EHCI.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	HCD.o (ex libnxp_xpresso_1769_usblib_device.a)
+    504	      0	      0	    504	    1f8	HAL_LPC17xx.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	HAL_LPC11Uxx.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	usbd_adcuser.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	usbd_cdc.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	usbd_hid.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	usbd_msc.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	usbd_rom.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	Endpoint_LPC18xx.o (ex libnxp_xpresso_1769_usblib_device.a)
+   4696	      0	   1024	   5720	   1658	Endpoint_LPC17xx.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	Endpoint_LPC11Uxx.o (ex libnxp_xpresso_1769_usblib_device.a)
+    348	      0	      0	    348	    15c	ConfigDescriptor.o (ex libnxp_xpresso_1769_usblib_device.a)
+     12	      0	      0	     12	      c	Device.o (ex libnxp_xpresso_1769_usblib_device.a)
+   2560	      0	      4	   2564	    a04	DeviceStandardReq.o (ex libnxp_xpresso_1769_usblib_device.a)
+    548	      0	   1536	   2084	    824	Endpoint.o (ex libnxp_xpresso_1769_usblib_device.a)
+   2196	      0	      0	   2196	    894	EndpointStream.o (ex libnxp_xpresso_1769_usblib_device.a)
+     12	      0	      0	     12	      c	Events.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	Host.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	HostStandardReq.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	Pipe.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	PipeStream.o (ex libnxp_xpresso_1769_usblib_device.a)
+    260	      0	      1	    261	    105	USBController.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	USBMemory.o (ex libnxp_xpresso_1769_usblib_device.a)
+    132	      0	      8	    140	     8c	USBTask.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	AudioClassHost.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	CDCClassHost.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	HIDClassHost.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	MIDIClassHost.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	MassStorageClassHost.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	PrinterClassHost.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	RNDISClassHost.o (ex libnxp_xpresso_1769_usblib_device.a)
+      0	      0	      0	      0	      0	StillImageClassHost.o (ex libnxp_xpresso_1769_usblib_device.a)
+   1440	      0	      0	   1440	    5a0	AudioClassDevice.o (ex libnxp_xpresso_1769_usblib_device.a)
+   7328	      0	      0	   7328	   1ca0	CDCClassDevice.o (ex libnxp_xpresso_1769_usblib_device.a)
+   3084	      0	      0	   3084	    c0c	HIDClassDevice.o (ex libnxp_xpresso_1769_usblib_device.a)
+   2348	      0	      0	   2348	    92c	MIDIClassDevice.o (ex libnxp_xpresso_1769_usblib_device.a)
+   2712	      0	      0	   2712	    a98	MassStorageClassDevice.o (ex libnxp_xpresso_1769_usblib_device.a)
+   4316	      0	      0	   4316	   10dc	RNDISClassDevice.o (ex libnxp_xpresso_1769_usblib_device.a)
+   2596	      0	      0	   2596	    a24	HIDParser.o (ex libnxp_xpresso_1769_usblib_device.a)
+ 
+
+10:46:03 Build Finished (took 19s.455ms)
+

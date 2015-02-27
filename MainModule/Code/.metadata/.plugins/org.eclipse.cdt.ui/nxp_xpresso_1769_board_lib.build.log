@@ -1,0 +1,278 @@
+10:45:08 **** Build of configuration Debug for project nxp_xpresso_1769_board_lib ****
+make -r all 
+Building file: ../IP/adc_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/adc_001.d" -MT"IP/adc_001.o" -MT"IP/adc_001.d" -o "IP/adc_001.o" "../IP/adc_001.c"
+Finished building: ../IP/adc_001.c
+ 
+Building file: ../IP/can_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/can_001.d" -MT"IP/can_001.o" -MT"IP/can_001.d" -o "IP/can_001.o" "../IP/can_001.c"
+../IP/can_001.c: In function 'IP_CAN_Init':
+../IP/can_001.c:333:20: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t i;
+                    ^
+Finished building: ../IP/can_001.c
+ 
+Building file: ../IP/dac_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/dac_001.d" -MT"IP/dac_001.o" -MT"IP/dac_001.d" -o "IP/dac_001.o" "../IP/dac_001.c"
+Finished building: ../IP/dac_001.c
+ 
+Building file: ../IP/enet_002.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/enet_002.d" -MT"IP/enet_002.o" -MT"IP/enet_002.d" -o "IP/enet_002.o" "../IP/enet_002.c"
+Finished building: ../IP/enet_002.c
+ 
+Building file: ../IP/gpdma_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/gpdma_001.d" -MT"IP/gpdma_001.o" -MT"IP/gpdma_001.d" -o "IP/gpdma_001.o" "../IP/gpdma_001.c"
+Finished building: ../IP/gpdma_001.c
+ 
+Building file: ../IP/i2c_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/i2c_001.d" -MT"IP/i2c_001.o" -MT"IP/i2c_001.d" -o "IP/i2c_001.o" "../IP/i2c_001.c"
+Finished building: ../IP/i2c_001.c
+ 
+Building file: ../IP/i2s_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/i2s_001.d" -MT"IP/i2s_001.o" -MT"IP/i2s_001.d" -o "IP/i2s_001.o" "../IP/i2s_001.c"
+Finished building: ../IP/i2s_001.c
+ 
+Building file: ../IP/ritimer_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/ritimer_001.d" -MT"IP/ritimer_001.o" -MT"IP/ritimer_001.d" -o "IP/ritimer_001.o" "../IP/ritimer_001.c"
+Finished building: ../IP/ritimer_001.c
+ 
+Building file: ../IP/rtc_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/rtc_001.d" -MT"IP/rtc_001.o" -MT"IP/rtc_001.d" -o "IP/rtc_001.o" "../IP/rtc_001.c"
+Finished building: ../IP/rtc_001.c
+ 
+Building file: ../IP/ssp_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/ssp_001.d" -MT"IP/ssp_001.o" -MT"IP/ssp_001.d" -o "IP/ssp_001.o" "../IP/ssp_001.c"
+Finished building: ../IP/ssp_001.c
+ 
+Building file: ../IP/timer_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/timer_001.d" -MT"IP/timer_001.o" -MT"IP/timer_001.d" -o "IP/timer_001.o" "../IP/timer_001.c"
+Finished building: ../IP/timer_001.c
+ 
+Building file: ../IP/usart_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/usart_001.d" -MT"IP/usart_001.o" -MT"IP/usart_001.d" -o "IP/usart_001.o" "../IP/usart_001.c"
+Finished building: ../IP/usart_001.c
+ 
+Building file: ../IP/wwdt_001.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"IP/wwdt_001.d" -MT"IP/wwdt_001.o" -MT"IP/wwdt_001.d" -o "IP/wwdt_001.o" "../IP/wwdt_001.c"
+Finished building: ../IP/wwdt_001.c
+ 
+Building file: ../CHIP/adc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/adc_17xx_40xx.d" -MT"CHIP/adc_17xx_40xx.o" -MT"CHIP/adc_17xx_40xx.d" -o "CHIP/adc_17xx_40xx.o" "../CHIP/adc_17xx_40xx.c"
+Finished building: ../CHIP/adc_17xx_40xx.c
+ 
+Building file: ../CHIP/can_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/can_17xx_40xx.d" -MT"CHIP/can_17xx_40xx.o" -MT"CHIP/can_17xx_40xx.d" -o "CHIP/can_17xx_40xx.o" "../CHIP/can_17xx_40xx.c"
+Finished building: ../CHIP/can_17xx_40xx.c
+ 
+Building file: ../CHIP/clock_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/clock_17xx_40xx.d" -MT"CHIP/clock_17xx_40xx.o" -MT"CHIP/clock_17xx_40xx.d" -o "CHIP/clock_17xx_40xx.o" "../CHIP/clock_17xx_40xx.c"
+../CHIP/clock_17xx_40xx.c: In function 'Chip_Clock_GetSYSCLKRate':
+../CHIP/clock_17xx_40xx.c:319:2: warning: enumeration value 'SYSCTL_PLLCLKSRC_RESERVED2' not handled in switch [-Wswitch]
+  switch (Chip_Clock_GetMainPllSource()) {
+  ^
+Finished building: ../CHIP/clock_17xx_40xx.c
+ 
+Building file: ../CHIP/cmp_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/cmp_17xx_40xx.d" -MT"CHIP/cmp_17xx_40xx.o" -MT"CHIP/cmp_17xx_40xx.d" -o "CHIP/cmp_17xx_40xx.o" "../CHIP/cmp_17xx_40xx.c"
+Finished building: ../CHIP/cmp_17xx_40xx.c
+ 
+Building file: ../CHIP/crc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/crc_17xx_40xx.d" -MT"CHIP/crc_17xx_40xx.o" -MT"CHIP/crc_17xx_40xx.d" -o "CHIP/crc_17xx_40xx.o" "../CHIP/crc_17xx_40xx.c"
+Finished building: ../CHIP/crc_17xx_40xx.c
+ 
+Building file: ../CHIP/dac_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/dac_17xx_40xx.d" -MT"CHIP/dac_17xx_40xx.o" -MT"CHIP/dac_17xx_40xx.d" -o "CHIP/dac_17xx_40xx.o" "../CHIP/dac_17xx_40xx.c"
+Finished building: ../CHIP/dac_17xx_40xx.c
+ 
+Building file: ../CHIP/eeprom_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/eeprom_17xx_40xx.d" -MT"CHIP/eeprom_17xx_40xx.o" -MT"CHIP/eeprom_17xx_40xx.d" -o "CHIP/eeprom_17xx_40xx.o" "../CHIP/eeprom_17xx_40xx.c"
+Finished building: ../CHIP/eeprom_17xx_40xx.c
+ 
+Building file: ../CHIP/emc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/emc_17xx_40xx.d" -MT"CHIP/emc_17xx_40xx.o" -MT"CHIP/emc_17xx_40xx.d" -o "CHIP/emc_17xx_40xx.o" "../CHIP/emc_17xx_40xx.c"
+Finished building: ../CHIP/emc_17xx_40xx.c
+ 
+Building file: ../CHIP/enet_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/enet_17xx_40xx.d" -MT"CHIP/enet_17xx_40xx.o" -MT"CHIP/enet_17xx_40xx.d" -o "CHIP/enet_17xx_40xx.o" "../CHIP/enet_17xx_40xx.c"
+Finished building: ../CHIP/enet_17xx_40xx.c
+ 
+Building file: ../CHIP/gpdma_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/gpdma_17xx_40xx.d" -MT"CHIP/gpdma_17xx_40xx.o" -MT"CHIP/gpdma_17xx_40xx.d" -o "CHIP/gpdma_17xx_40xx.o" "../CHIP/gpdma_17xx_40xx.c"
+Finished building: ../CHIP/gpdma_17xx_40xx.c
+ 
+Building file: ../CHIP/i2c_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/i2c_17xx_40xx.d" -MT"CHIP/i2c_17xx_40xx.o" -MT"CHIP/i2c_17xx_40xx.d" -o "CHIP/i2c_17xx_40xx.o" "../CHIP/i2c_17xx_40xx.c"
+Finished building: ../CHIP/i2c_17xx_40xx.c
+ 
+Building file: ../CHIP/i2s_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/i2s_17xx_40xx.d" -MT"CHIP/i2s_17xx_40xx.o" -MT"CHIP/i2s_17xx_40xx.d" -o "CHIP/i2s_17xx_40xx.o" "../CHIP/i2s_17xx_40xx.c"
+Finished building: ../CHIP/i2s_17xx_40xx.c
+ 
+Building file: ../CHIP/iocon_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/iocon_17xx_40xx.d" -MT"CHIP/iocon_17xx_40xx.o" -MT"CHIP/iocon_17xx_40xx.d" -o "CHIP/iocon_17xx_40xx.o" "../CHIP/iocon_17xx_40xx.c"
+Finished building: ../CHIP/iocon_17xx_40xx.c
+ 
+Building file: ../CHIP/lcd_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/lcd_17xx_40xx.d" -MT"CHIP/lcd_17xx_40xx.o" -MT"CHIP/lcd_17xx_40xx.d" -o "CHIP/lcd_17xx_40xx.o" "../CHIP/lcd_17xx_40xx.c"
+Finished building: ../CHIP/lcd_17xx_40xx.c
+ 
+Building file: ../CHIP/mem_tests.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/mem_tests.d" -MT"CHIP/mem_tests.o" -MT"CHIP/mem_tests.d" -o "CHIP/mem_tests.o" "../CHIP/mem_tests.c"
+Finished building: ../CHIP/mem_tests.c
+ 
+Building file: ../CHIP/ring_buffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/ring_buffer.d" -MT"CHIP/ring_buffer.o" -MT"CHIP/ring_buffer.d" -o "CHIP/ring_buffer.o" "../CHIP/ring_buffer.c"
+Finished building: ../CHIP/ring_buffer.c
+ 
+Building file: ../CHIP/ritimer_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/ritimer_17xx_40xx.d" -MT"CHIP/ritimer_17xx_40xx.o" -MT"CHIP/ritimer_17xx_40xx.d" -o "CHIP/ritimer_17xx_40xx.o" "../CHIP/ritimer_17xx_40xx.c"
+Finished building: ../CHIP/ritimer_17xx_40xx.c
+ 
+Building file: ../CHIP/rtc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/rtc_17xx_40xx.d" -MT"CHIP/rtc_17xx_40xx.o" -MT"CHIP/rtc_17xx_40xx.d" -o "CHIP/rtc_17xx_40xx.o" "../CHIP/rtc_17xx_40xx.c"
+Finished building: ../CHIP/rtc_17xx_40xx.c
+ 
+Building file: ../CHIP/sdc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/sdc_17xx_40xx.d" -MT"CHIP/sdc_17xx_40xx.o" -MT"CHIP/sdc_17xx_40xx.d" -o "CHIP/sdc_17xx_40xx.o" "../CHIP/sdc_17xx_40xx.c"
+Finished building: ../CHIP/sdc_17xx_40xx.c
+ 
+Building file: ../CHIP/sdmmc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/sdmmc_17xx_40xx.d" -MT"CHIP/sdmmc_17xx_40xx.o" -MT"CHIP/sdmmc_17xx_40xx.d" -o "CHIP/sdmmc_17xx_40xx.o" "../CHIP/sdmmc_17xx_40xx.c"
+Finished building: ../CHIP/sdmmc_17xx_40xx.c
+ 
+Building file: ../CHIP/spi_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/spi_17xx_40xx.d" -MT"CHIP/spi_17xx_40xx.o" -MT"CHIP/spi_17xx_40xx.d" -o "CHIP/spi_17xx_40xx.o" "../CHIP/spi_17xx_40xx.c"
+../CHIP/spi_17xx_40xx.c: In function 'Chip_SPI_Int_FlushData':
+../CHIP/spi_17xx_40xx.c:137:20: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t tmp;
+                    ^
+Finished building: ../CHIP/spi_17xx_40xx.c
+ 
+Building file: ../CHIP/ssp_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/ssp_17xx_40xx.d" -MT"CHIP/ssp_17xx_40xx.o" -MT"CHIP/ssp_17xx_40xx.d" -o "CHIP/ssp_17xx_40xx.o" "../CHIP/ssp_17xx_40xx.c"
+Finished building: ../CHIP/ssp_17xx_40xx.c
+ 
+Building file: ../CHIP/sysctl_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/sysctl_17xx_40xx.d" -MT"CHIP/sysctl_17xx_40xx.o" -MT"CHIP/sysctl_17xx_40xx.d" -o "CHIP/sysctl_17xx_40xx.o" "../CHIP/sysctl_17xx_40xx.c"
+Finished building: ../CHIP/sysctl_17xx_40xx.c
+ 
+Building file: ../CHIP/timer_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/timer_17xx_40xx.d" -MT"CHIP/timer_17xx_40xx.o" -MT"CHIP/timer_17xx_40xx.d" -o "CHIP/timer_17xx_40xx.o" "../CHIP/timer_17xx_40xx.c"
+Finished building: ../CHIP/timer_17xx_40xx.c
+ 
+Building file: ../CHIP/uart_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/uart_17xx_40xx.d" -MT"CHIP/uart_17xx_40xx.o" -MT"CHIP/uart_17xx_40xx.d" -o "CHIP/uart_17xx_40xx.o" "../CHIP/uart_17xx_40xx.c"
+Finished building: ../CHIP/uart_17xx_40xx.c
+ 
+Building file: ../CHIP/wwdt_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"CHIP/wwdt_17xx_40xx.d" -MT"CHIP/wwdt_17xx_40xx.o" -MT"CHIP/wwdt_17xx_40xx.d" -o "CHIP/wwdt_17xx_40xx.o" "../CHIP/wwdt_17xx_40xx.c"
+Finished building: ../CHIP/wwdt_17xx_40xx.c
+ 
+Building file: ../BOARD/board_nxp_xpresso_1769.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"BOARD/board_nxp_xpresso_1769.d" -MT"BOARD/board_nxp_xpresso_1769.o" -MT"BOARD/board_nxp_xpresso_1769.d" -o "BOARD/board_nxp_xpresso_1769.o" "../BOARD/board_nxp_xpresso_1769.c"
+../BOARD/board_nxp_xpresso_1769.c: In function 'Board_I2C_Init':
+../BOARD/board_nxp_xpresso_1769.c:262:2: warning: enumeration value 'I2C_NUM_INTERFACE' not handled in switch [-Wswitch]
+  switch (id) {
+  ^
+Finished building: ../BOARD/board_nxp_xpresso_1769.c
+ 
+Building file: ../BOARD/sysinit_nxp_xpresso_1769.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M3 -DDEBUG -D__CODE_RED -I"../../software/lpc_core/lpc_board/board_common" -I"../../software/lpc_core/lpc_board/boards_17xx_40xx/nxp_xpresso_1769" -I"../../software/lpc_core/lpc_chip/chip_common" -I"../../software/lpc_core/lpc_ip" -I"../../software/CMSIS/CMSIS/Include" -I"../../software/lpc_core/lpc_chip/chip_17xx_40xx" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"BOARD/sysinit_nxp_xpresso_1769.d" -MT"BOARD/sysinit_nxp_xpresso_1769.o" -MT"BOARD/sysinit_nxp_xpresso_1769.d" -o "BOARD/sysinit_nxp_xpresso_1769.o" "../BOARD/sysinit_nxp_xpresso_1769.c"
+Finished building: ../BOARD/sysinit_nxp_xpresso_1769.c
+ 
+Building target: libnxp_xpresso_1769_board_lib.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libnxp_xpresso_1769_board_lib.a"  ./IP/adc_001.o ./IP/can_001.o ./IP/dac_001.o ./IP/enet_002.o ./IP/gpdma_001.o ./IP/i2c_001.o ./IP/i2s_001.o ./IP/ritimer_001.o ./IP/rtc_001.o ./IP/ssp_001.o ./IP/timer_001.o ./IP/usart_001.o ./IP/wwdt_001.o  ./CHIP/adc_17xx_40xx.o ./CHIP/can_17xx_40xx.o ./CHIP/clock_17xx_40xx.o ./CHIP/cmp_17xx_40xx.o ./CHIP/crc_17xx_40xx.o ./CHIP/dac_17xx_40xx.o ./CHIP/eeprom_17xx_40xx.o ./CHIP/emc_17xx_40xx.o ./CHIP/enet_17xx_40xx.o ./CHIP/gpdma_17xx_40xx.o ./CHIP/i2c_17xx_40xx.o ./CHIP/i2s_17xx_40xx.o ./CHIP/iocon_17xx_40xx.o ./CHIP/lcd_17xx_40xx.o ./CHIP/mem_tests.o ./CHIP/ring_buffer.o ./CHIP/ritimer_17xx_40xx.o ./CHIP/rtc_17xx_40xx.o ./CHIP/sdc_17xx_40xx.o ./CHIP/sdmmc_17xx_40xx.o ./CHIP/spi_17xx_40xx.o ./CHIP/ssp_17xx_40xx.o ./CHIP/sysctl_17xx_40xx.o ./CHIP/timer_17xx_40xx.o ./CHIP/uart_17xx_40xx.o ./CHIP/wwdt_17xx_40xx.o  ./BOARD/board_nxp_xpresso_1769.o ./BOARD/sysinit_nxp_xpresso_1769.o   
+c:\nxp\LPCXpresso_7.5.0_254\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating libnxp_xpresso_1769_board_lib.a
+Finished building target: libnxp_xpresso_1769_board_lib.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libnxp_xpresso_1769_board_lib.a" ; # arm-none-eabi-objdump -h -S "libnxp_xpresso_1769_board_lib.a" >"libnxp_xpresso_1769_board_lib.lss"
+   text	   data	    bss	    dec	    hex	filename
+    644	      0	      0	    644	    284	adc_001.o (ex libnxp_xpresso_1769_board_lib.a)
+   8180	      0	      0	   8180	   1ff4	can_001.o (ex libnxp_xpresso_1769_board_lib.a)
+    192	      0	      0	    192	     c0	dac_001.o (ex libnxp_xpresso_1769_board_lib.a)
+    936	      0	      4	    940	    3ac	enet_002.o (ex libnxp_xpresso_1769_board_lib.a)
+    884	      0	      0	    884	    374	gpdma_001.o (ex libnxp_xpresso_1769_board_lib.a)
+   1672	      0	      0	   1672	    688	i2c_001.o (ex libnxp_xpresso_1769_board_lib.a)
+   1444	      0	      0	   1444	    5a4	i2s_001.o (ex libnxp_xpresso_1769_board_lib.a)
+    108	      0	      0	    108	     6c	ritimer_001.o (ex libnxp_xpresso_1769_board_lib.a)
+    912	      0	      0	    912	    390	rtc_001.o (ex libnxp_xpresso_1769_board_lib.a)
+     52	      0	      0	     52	     34	ssp_001.o (ex libnxp_xpresso_1769_board_lib.a)
+    156	      0	      0	    156	     9c	timer_001.o (ex libnxp_xpresso_1769_board_lib.a)
+   1848	      0	      0	   1848	    738	usart_001.o (ex libnxp_xpresso_1769_board_lib.a)
+     96	      0	      0	     96	     60	wwdt_001.o (ex libnxp_xpresso_1769_board_lib.a)
+    384	      0	      0	    384	    180	adc_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+    492	      0	      0	    492	    1ec	can_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+   1596	      0	      0	   1596	    63c	clock_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+      0	      0	      0	      0	      0	cmp_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+      0	      0	      0	      0	      0	crc_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+     20	      0	      0	     20	     14	dac_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+      0	      0	      0	      0	      0	eeprom_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+      0	      0	      0	      0	      0	emc_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+    212	      0	      0	    212	     d4	enet_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+   1472	     96	      8	   1576	    628	gpdma_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+   2060	     84	    120	   2264	    8d8	i2c_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+    804	      0	      0	    804	    324	i2s_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+    148	      0	      0	    148	     94	iocon_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+      0	      0	      0	      0	      0	lcd_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+   1096	      0	      0	   1096	    448	mem_tests.o (ex libnxp_xpresso_1769_board_lib.a)
+   1048	      0	      0	   1048	    418	ring_buffer.o (ex libnxp_xpresso_1769_board_lib.a)
+    224	      0	      0	    224	     e0	ritimer_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+     80	      0	      0	     80	     50	rtc_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+      0	      0	      0	      0	      0	sdc_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+      0	      0	      0	      0	      0	sdmmc_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+   1092	      0	      0	   1092	    444	spi_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+   2244	      0	      0	   2244	    8c4	ssp_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+     48	      0	      0	     48	     30	sysctl_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+    136	      0	      0	    136	     88	timer_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+   1656	      0	    530	   2186	    88a	uart_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+     20	      0	      0	     20	     14	wwdt_17xx_40xx.o (ex libnxp_xpresso_1769_board_lib.a)
+   2948	      0	     18	   2966	    b96	board_nxp_xpresso_1769.o (ex libnxp_xpresso_1769_board_lib.a)
+    500	      0	      0	    500	    1f4	sysinit_nxp_xpresso_1769.o (ex libnxp_xpresso_1769_board_lib.a)
+ 
+
+10:45:42 Build Finished (took 33s.487ms)
+
